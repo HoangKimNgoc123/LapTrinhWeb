@@ -1,0 +1,6 @@
+E:\Ky 1 nam 4\Web\CaesarLib\CaesarLib\bin\Debug\CaesarLib.dll
+E:\Ky 1 nam 4\Web\CaesarLib\CaesarLib\bin\Debug\CaesarLib.pdb
+E:\Ky 1 nam 4\Web\CaesarLib\CaesarLib\obj\Debug\CaesarLib.csproj.AssemblyReference.cache
+E:\Ky 1 nam 4\Web\CaesarLib\CaesarLib\obj\Debug\CaesarLib.csproj.CoreCompileInputs.cache
+E:\Ky 1 nam 4\Web\CaesarLib\CaesarLib\obj\Debug\CaesarLib.dll
+E:\Ky 1 nam 4\Web\CaesarLib\CaesarLib\obj\Debug\CaesarLib.pdb

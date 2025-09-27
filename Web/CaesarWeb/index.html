@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Caesar Cipher Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f2f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 25px 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            margin-top: 0;
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 15px;
+        }
+
+        textarea, input[type=number] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .buttons {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        button {
+            margin: 5px;
+            padding: 8px 18px;
+            font-size: 14px;
+            border: none;
+            border-radius: 4px;
+            background: #007bff;
+            color: #fff;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+            button:hover {
+                background: #0056b3;
+            }
+
+        h3 {
+            margin-top: 20px;
+            color: #444;
+        }
+
+        pre {
+            background: #f9f9f9;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Caesar Cipher</h2>
+
+        <label>Text:</label>
+        <textarea id="txt" placeholder="Enter text...">Hello World!</textarea>
+
+        <label>Shift:</label>
+        <input id="shift" type="number" value="3" />
+
+        <div class="buttons">
+            <button id="btnPost">Gửi POST</button>
+            <button id="btnGet">Gửi GET</button>
+        </div>
+
+        <h3>Kết quả</h3>
+        <pre id="result">---</pre>
+    </div>
+
+    <script>
+        function showResult(jsonObj) {
+            var out = '';
+            out += 'Original: ' + (jsonObj.original || '') + '\n';
+            out += 'Shift: ' + (jsonObj.shift || '') + '\n';
+            out += 'Encoded: ' + (jsonObj.encoded || '') + '\n';
+            out += 'Decoded: ' + (jsonObj.decoded || '') + '\n';
+            document.getElementById('result').innerText = out;
+        }
+
+        document.getElementById('btnPost').addEventListener('click', function () {
+            var text = document.getElementById('txt').value;
+            var shift = document.getElementById('shift').value;
+            var body = 'text=' + encodeURIComponent(text) + '&shift=' + encodeURIComponent(shift);
+
+            fetch('api.aspx', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: body
+            })
+                .then(res => res.json())
+                .then(data => showResult(data))
+                .catch(err => alert('Error: ' + err.message));
+        });
+
+        document.getElementById('btnGet').addEventListener('click', function () {
+            var text = document.getElementById('txt').value;
+            var shift = document.getElementById('shift').value;
+            var url = 'api.aspx?text=' + encodeURIComponent(text) + '&shift=' + encodeURIComponent(shift);
+
+            fetch(url)
+                .then(res => res.json())
+                .then(data => showResult(data))
+                .catch(err => alert('Error: ' + err.message));
+        });
+    </script>
+</body>
+</html>
