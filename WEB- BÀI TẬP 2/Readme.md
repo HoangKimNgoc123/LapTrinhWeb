@@ -239,27 +239,28 @@
 7. Nhận xét:
 
    - **Trong quá trình cài đặt phần mềm:**
-     1, Khi cài đặt 1 web server thì cần biết port nào server đó sẽ chạy, chẳng hạn như IIS thường chạy port 80, thì khi muốn cài thêm web server khác thì cần tắt hoạt động của server trên cổng 80 đẻ cho server khác chạy.
-     2, Ngoài cài đặt thủ công, trực tiếp thì có thể dùng phần mềm trung gian như XAMPP hoặc cài trên máy ảo.
-     3, Khi cấu hình các file cấu hình chính của web server thì cần mở quyền Admin cho ứng dụng viết cấu hình.
-     4, Khi cài đặt hay khởi động nodered thì cần mở quyền Admin cho CMD.
-     5, Khi cấu hình các node trên nodered thì cần tìm hiểu thật kỹ các thuộc tính của từng node, cần hiểu cách node đó hoạt động như nào.
-     6, Khi cấu hình node MSSQL thì cần connect tới SQL Server, cần điền chính xác các thông tin như servername, port, username, password, database name. Ngoài ra cần tìm hiểu và xác định đúng Query Mode.
-     7, Nên test connect của từng node trước bằng cách thêm node Debug. Trong quá trình test connect thì cần mở Debug message, đọc các message sau khi deploy node để xem kết quả deploy đúng hay chưa.
-     8, Sau mỗi lần sửa cấu hình node cần nhấn nút Update và Deploy lại 1 lần
+     + Khi cài đặt 1 web server thì cần biết port nào server đó sẽ chạy, chẳng hạn như IIS thường chạy port 80, thì khi muốn cài thêm web server khác thì cần tắt hoạt động của server trên cổng 80 đẻ cho server khác chạy.
+     + Ngoài cài đặt thủ công, trực tiếp thì có thể dùng phần mềm trung gian như XAMPP hoặc cài trên máy ảo.
+     + Khi cấu hình các file cấu hình chính của web server thì cần mở quyền Admin cho ứng dụng viết cấu hình.
+     + Khi cài đặt hay khởi động nodered thì cần mở quyền Admin cho CMD.
+     + Khi cấu hình các node trên nodered thì cần tìm hiểu thật kỹ các thuộc tính của từng node, cần hiểu cách node đó hoạt động như nào.
+     + Khi cấu hình node MSSQL thì cần connect tới SQL Server, cần điền chính xác các thông tin như servername, port, username, password, database name. Ngoài ra cần tìm hiểu và xác định đúng Query Mode.
+     + Nên test connect của từng node trước bằng cách thêm node Debug. Trong quá trình test connect thì cần mở Debug message, đọc các message sau khi deploy node để xem kết quả deploy đúng hay chưa.
+     + Sau mỗi lần sửa cấu hình node cần nhấn nút Update và Deploy lại 1 lần
 
-  - **Dựng cơ sở dữ liệu**:
-     1, Cơ sở dữ liệu sử dụng trong bài toán tìm kiếm ở mức cơ bản, chỉ có các thuộc tính cần thiết của 1 sản phẩm (id, name, brand, countInStock, description..).
-     2, Dữ liệu demo nhập vào khoảng 20 items, các dữ liệu này đủ để phục vụ cho quá trình test tính năng tìm kiếm
-  - **Cách dùng Nodered để tạo Backend**
-     1, Về cơ bản, Nodered dễ sử dụng, linh hoạt
-     2, Cần hiểu rõ các node để connect đúng
-     3, Các thuộc tính trong các node thay thế cho các dòng lệnh dài dòng khi code chay.
-     4, Khi mới bắt đầu cần test connect từng node, sử dụng Inject (timestamp) thay cho http in để test cho dễ thực hiện
-     5, Debug quan trọng, nên đọc kỹ debug để tìm ra lỗi khi connect.
+   - **Dựng cơ sở dữ liệu**:
+     + Cơ sở dữ liệu sử dụng trong bài toán tìm kiếm ở mức cơ bản, chỉ có các thuộc tính cần thiết của 1 sản phẩm (id, name, brand, countInStock, description..).
+     + Dữ liệu demo nhập vào khoảng 20 items, các dữ liệu này đủ để phục vụ cho quá trình test tính năng tìm kiếm
+   - **Cách dùng Nodered để tạo Backend**
+     + Về cơ bản, Nodered dễ sử dụng, linh hoạt
+     + Cần hiểu rõ các node để connect đúng
+     + Các thuộc tính trong các node thay thế cho các dòng lệnh dài dòng khi code chay.
+     + Khi mới bắt đầu cần test connect từng node, sử dụng Inject (timestamp) thay cho http in để test cho dễ thực hiện
+     + Debug quan trọng, nên đọc kỹ debug để tìm ra lỗi khi connect.
   - **Cách frontend tương tác với backend**:
-     1, Khi client gửi phương thức POST/GET thì bên backend là API Nodered sẽ nhận và xử lý yêu cầu: truy vấn database (SQL Server). Sau đó trả về kết quả cho client.
-     2, Kết quả backend trả về dạng json, frontend sẽ nhận json này bằng js thông qua hàm fetch(), và sau đó cập lên giao diện.
-     3, Connect DB với Backend Nodered thông qua nhập các thuộc tính server name, port, username, ....
+     + Khi client gửi phương thức POST/GET thì bên backend là API Nodered sẽ nhận và xử lý yêu cầu: truy vấn database (SQL Server). Sau đó trả về kết quả cho client.
+     + Kết quả backend trả về dạng json, frontend sẽ nhận json này bằng js thông qua hàm fetch(), và sau đó cập lên giao diện.
+     + Connect DB với Backend Nodered thông qua nhập các thuộc tính server name, port, username, ....
      
      
+
