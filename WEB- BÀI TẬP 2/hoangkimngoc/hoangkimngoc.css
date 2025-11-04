@@ -1,0 +1,172 @@
+:root {
+    --main-color: #8e24aa;
+    /* tím chủ đạo */
+    --main-dark: #6a1b9a;
+    --text-dark: #222;
+    --text-gray: #777;
+    --bg-light: #f9f6fc;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+}
+
+/* Banner trên cùng */
+.top-banner {
+    background-color: var(--main-dark);
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 0.95em;
+}
+
+/* Header */
+header {
+    background-color: var(--main-color);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.logo {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.search-bar input {
+    border: none;
+    padding: 10px 15px;
+    width: 300px;
+    outline: none;
+}
+
+.search-bar button {
+    background-color: var(--main-dark);
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search-bar button:hover {
+    background-color: #4a0072;
+}
+
+.header-icons span {
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 0.95em;
+}
+
+/* Menu danh mục */
+nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: var(--text-dark);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(--main-color);
+}
+
+/* Banner chính */
+.main-banner img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Danh sách sản phẩm */
+.section-title {
+    text-align: center;
+    font-size: 1.8em;
+    color: var(--main-dark);
+    margin: 30px 0 15px;
+}
+
+#product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    padding: 20px 40px 60px;
+}
+
+/* Thẻ sản phẩm */
+.product {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: pointer;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.product img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 12px 15px;
+}
+
+.product-info h3 {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.price {
+    color: #e91e63;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+.brand {
+    color: var(--text-gray);
+    font-size: 0.9em;
+}
+
+/* Footer */
+footer {
+    background-color: var(--main-dark);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
