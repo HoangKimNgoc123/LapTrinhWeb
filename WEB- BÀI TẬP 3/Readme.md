@@ -1,4 +1,4 @@
-<img width="962" height="186" alt="Ảnh chụp màn hình 2025-11-06 225448" src="https://github.com/user-attachments/assets/d4b16fd3-ad41-4d5d-bf73-040ca4e4acdf" />### Họ và tên: Hoàng Kim Ngọc 
+### Họ và tên: Hoàng Kim Ngọc 
 ### MSSV: K2254801053 
 ### Lớp: K58KTP
 # BÀI TẬP 3 học phần Phát triển ứng dụng trên nền web
@@ -117,5 +117,6 @@ Yêu cầu: LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
      + API thống kê 
 
     <img width="926" height="326" alt="Ảnh chụp màn hình 2025-11-06 225457" src="https://github.com/user-attachments/assets/7a60ded7-e2db-4acd-a633-2515b97f5405" />
+
 
 
