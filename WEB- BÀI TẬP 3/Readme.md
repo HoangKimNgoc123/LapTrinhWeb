@@ -49,13 +49,33 @@ Yêu cầu: LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
     <img width="456" height="27" alt="Ảnh chụp màn hình 2025-11-04 174307" src="https://github.com/user-attachments/assets/9f30ca9c-0258-4a07-8056-49865e4fc31e" />
 
     <img width="1473" height="762" alt="image" src="https://github.com/user-attachments/assets/04beb8ae-0070-4d2a-8693-692430667e42" />
+ 
+    <img width="576" height="228" alt="Ảnh chụp màn hình 2025-11-04 174340" src="https://github.com/user-attachments/assets/487d7ff2-5dcb-44fa-9033-a74225ac938e" />
 
-    - Sau khi tạo xong thì nhập docker compose up -d
+    <img width="1466" height="293" alt="Ảnh chụp màn hình 2025-11-04 174522" src="https://github.com/user-attachments/assets/305e2aa9-1aa7-4a14-a06b-3709d357cfdc" />
 
-   
+     - Tạo file default.conf trong nginx:
 
-    
-    
-    
+   <img width="1449" height="670" alt="image" src="https://github.com/user-attachments/assets/c13421cd-dc6d-4279-b1c4-f106f7d1c273" />
+
+      - Tạo file grafana.ini trong grafana:
+
+     <img width="1449" height="670" alt="image" src="https://github.com/user-attachments/assets/08560626-23eb-4546-aa5d-64775dce0826" />
+
+      - Sau khi tạo xong thì nhập docker compose up -d
+
+      <img width="522" height="199" alt="Ảnh chụp màn hình 2025-11-04 203948" src="https://github.com/user-attachments/assets/d2df4c5a-c1f3-4a8e-9373-9e47344a481a" />
+
+       - Nhập Docker ps để xem các cổng chạy đối với từng images:
+
+     <img width="1436" height="337" alt="Ảnh chụp màn hình 2025-11-04 204102" src="https://github.com/user-attachments/assets/c657c3d9-72bb-4e80-8b85-dfcb3d0d9699" />
+
+     <img width="1899" height="968" alt="Ảnh chụp màn hình 2025-11-06 225643" src="https://github.com/user-attachments/assets/fdf26e8c-694d-487f-8b42-30eac4e8ddf5" />
+
+    <img width="1911" height="976" alt="Ảnh chụp màn hình 2025-11-06 225758" src="https://github.com/user-attachments/assets/327b262d-22fd-4510-aaf4-d823aebc0154" />
+
+
+
+
 
 
