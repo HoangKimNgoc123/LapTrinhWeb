@@ -48,12 +48,14 @@ Yêu cầu: LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
 
     <img width="456" height="27" alt="Ảnh chụp màn hình 2025-11-04 174307" src="https://github.com/user-attachments/assets/9f30ca9c-0258-4a07-8056-49865e4fc31e" />
 
-    <img width="1460" height="754" alt="Ảnh chụp màn hình 2025-11-04 174253" src="https://github.com/user-attachments/assets/16a7e000-4215-4809-8cc7-10db08ecaa3b" />
+    <img width="1473" height="762" alt="image" src="https://github.com/user-attachments/assets/04beb8ae-0070-4d2a-8693-692430667e42" />
 
     - Sau khi tạo xong thì nhập docker compose up -d
 
-      ![Uploading Ảnh chụp màn hình 2025-11-04 174522.png…]()
+  
+
 
     
     
     
+
