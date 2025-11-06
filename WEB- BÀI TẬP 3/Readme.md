@@ -1,4 +1,4 @@
-### Họ và tên: Hoàng Kim Ngọc 
+<img width="962" height="186" alt="Ảnh chụp màn hình 2025-11-06 225448" src="https://github.com/user-attachments/assets/d4b16fd3-ad41-4d5d-bf73-040ca4e4acdf" />### Họ và tên: Hoàng Kim Ngọc 
 ### MSSV: K2254801053 
 ### Lớp: K58KTP
 # BÀI TẬP 3 học phần Phát triển ứng dụng trên nền web
@@ -80,8 +80,42 @@ Yêu cầu: LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
      
    <img width="1919" height="904" alt="Ảnh chụp màn hình 2025-11-06 225728" src="https://github.com/user-attachments/assets/a7be1454-65a0-494e-a44a-61426d4fc9b3" />
 
-   - Tải thư viện 
+   - Tải thư viện: 
 
+   <img width="631" height="851" alt="Ảnh chụp màn hình 2025-11-07 001901" src="https://github.com/user-attachments/assets/f2b0e190-bde5-4f44-8807-fd21e86c3e5c" />
 
+   - Tạo các API:
+
+     + API LOGIN:
+
+       <img width="1227" height="205" alt="Ảnh chụp màn hình 2025-11-06 225415" src="https://github.com/user-attachments/assets/52e2c2bf-1f83-4fda-91d9-2c9e4a2d47c5" />
+
+     + API tính năng liệt kê các sản phẩm bán chạy:
+
+       <img width="997" height="134" alt="Ảnh chụp màn hình 2025-11-06 225419" src="https://github.com/user-attachments/assets/2f7a180c-694a-40fe-acb0-5728e72976ea" />
+
+     + API tính năng liệt kê các nhóm sản phẩm:
+
+      <img width="933" height="135" alt="Ảnh chụp màn hình 2025-11-06 225424" src="https://github.com/user-attachments/assets/47b062e5-a0ac-4743-ba58-676520a0ecd8" />
+
+     + API tính năng liệt kê sản phẩm theo nhóm
+
+   <img width="1070" height="101" alt="Ảnh chụp màn hình 2025-11-06 225429" src="https://github.com/user-attachments/assets/d688c6e7-56cd-47ab-9fd1-4555d1b20936" />
+
+     + API tính năng tìm kiếm sản phẩm
+
+       <img width="970" height="81" alt="Ảnh chụp màn hình 2025-11-06 225435" src="https://github.com/user-attachments/assets/85756654-8565-4271-81fd-f6e0a5c44d2b" />
+
+     + API tính năng chọn sản phẩm
+
+       <img width="1040" height="228" alt="Ảnh chụp màn hình 2025-11-06 225441" src="https://github.com/user-attachments/assets/57540369-7681-4d02-bd03-2d68f7d6d13d" />
+
+    + API tính năng đặt hàng
+    
+     <img width="962" height="186" alt="Ảnh chụp màn hình 2025-11-06 225448" src="https://github.com/user-attachments/assets/456b14c7-99cd-4c9b-a092-433813a603dd" />
+
+     + API thống kê 
+
+    <img width="926" height="326" alt="Ảnh chụp màn hình 2025-11-06 225457" src="https://github.com/user-attachments/assets/7a60ded7-e2db-4acd-a633-2515b97f5405" />
 
 
