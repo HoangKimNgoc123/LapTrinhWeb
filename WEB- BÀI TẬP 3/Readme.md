@@ -117,6 +117,13 @@ Yêu cầu: LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
      + API thống kê 
 
     <img width="926" height="326" alt="Ảnh chụp màn hình 2025-11-06 225457" src="https://github.com/user-attachments/assets/7a60ded7-e2db-4acd-a633-2515b97f5405" />
+  
+     - Test API trên postman:
+  
+       <img width="1745" height="752" alt="Ảnh chụp màn hình 2025-11-06 191710" src="https://github.com/user-attachments/assets/4dcdcec9-c98d-4329-89cb-5d9fcac3dc61" />
 
+      - Trang chủ website chạy trên : hoangkimngoc.com
+
+        <img width="1757" height="1043" alt="Ảnh chụp màn hình 2025-11-06 215008" src="https://github.com/user-attachments/assets/0a4b4ab0-3054-4182-ab4b-cc402fb75bdb" />
 
 
