@@ -74,7 +74,13 @@ Yêu cầu: LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
 
     <img width="1911" height="976" alt="Ảnh chụp màn hình 2025-11-06 225758" src="https://github.com/user-attachments/assets/327b262d-22fd-4510-aaf4-d823aebc0154" />
 
+3. Lập trình web frontend+backend:
 
+   - Tạo database:
+     
+   <img width="1919" height="904" alt="Ảnh chụp màn hình 2025-11-06 225728" src="https://github.com/user-attachments/assets/a7be1454-65a0-494e-a44a-61426d4fc9b3" />
+
+   - Tải thư viện 
 
 
 
