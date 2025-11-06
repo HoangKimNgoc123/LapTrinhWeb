@@ -123,7 +123,34 @@ Yêu cầu: LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
        <img width="1745" height="752" alt="Ảnh chụp màn hình 2025-11-06 191710" src="https://github.com/user-attachments/assets/4dcdcec9-c98d-4329-89cb-5d9fcac3dc61" />
 
       - Trang chủ website chạy trên : hoangkimngoc.com
+      - Tính năng đăng nhập:
+        
+        <img width="1919" height="1079" alt="Ảnh chụp màn hình 2025-11-07 014754" src="https://github.com/user-attachments/assets/b7f342be-b962-4879-8c21-63315cb6b284" />
 
-        <img width="1757" height="1043" alt="Ảnh chụp màn hình 2025-11-06 215008" src="https://github.com/user-attachments/assets/0a4b4ab0-3054-4182-ab4b-cc402fb75bdb" />
+      - Tính năng hiển thị các sản phẩm bán chạy ở trang chủ:
+        
+   <img width="1919" height="1079" alt="Ảnh chụp màn hình 2025-11-07 020056" src="https://github.com/user-attachments/assets/b2176213-f2c5-43c1-976f-e4b482cd6277" />
+      
+      - Tính năng hiện các danh mục sản phẩm:
 
+        <img width="1904" height="1079" alt="Ảnh chụp màn hình 2025-11-07 014808" src="https://github.com/user-attachments/assets/03850519-c0ce-4d25-b1b8-e714d38261aa" />
 
+       - Tính năng tìm kiếm sản phẩm:
+
+  <img width="1919" height="1068" alt="Ảnh chụp màn hình 2025-11-07 014826" src="https://github.com/user-attachments/assets/68a20a5c-5adb-4497-945b-3934db9e3468" />
+
+        - Tính năng thêm sản phẩm vào giỏ hàng:
+
+   <img width="1919" height="1079" alt="Ảnh chụp màn hình 2025-11-07 022348" src="https://github.com/user-attachments/assets/b270653c-1ad0-4330-9305-67ff6dcdd682" />
+
+         - Tính năng Đặt hàng:
+
+   <img width="1917" height="1053" alt="Ảnh chụp màn hình 2025-11-07 022401" src="https://github.com/user-attachments/assets/4ec3efc9-9ea3-405c-bec3-5765dfe4b043" />
+
+         - Tính năng điền thông tin giao hàng và thanh toán:
+
+   <img width="1907" height="1079" alt="Ảnh chụp màn hình 2025-11-07 022507" src="https://github.com/user-attachments/assets/b1e148d3-3d96-4968-8d77-5c1c0017b0b8" />
+
+         - Thông báo khi đặt hàng thành công:
+
+   <img width="1919" height="1079" alt="Ảnh chụp màn hình 2025-11-07 022512" src="https://github.com/user-attachments/assets/40c2c287-54d0-4325-b399-536817769f38" />
