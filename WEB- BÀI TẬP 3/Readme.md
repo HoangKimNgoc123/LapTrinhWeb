@@ -52,10 +52,10 @@ Yêu cầu: LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
 
     - Sau khi tạo xong thì nhập docker compose up -d
 
-  
+   
 
+    
+    
+    
 
-    
-    
-    
 
