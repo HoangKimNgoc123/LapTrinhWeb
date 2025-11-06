@@ -1,4 +1,4 @@
-### Hoàng Kim Ngọc 
+### Họ và tên: Hoàng Kim Ngọc 
 ### MSSV: K2254801053 
 ### Lớp: K58KTP
 # BÀI TẬP 3 học phần Phát triển ứng dụng trên nền web
@@ -31,4 +31,29 @@ Yêu cầu: LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
  - backend: sử dụng nodered xử lý request gửi lên từ javascript, phản hồi về json.
 ## BÀI LÀM
 1. Cài đặt môi trường linux:
-      
+   - enable wsl: cài đặt ubuntu
+     Mở PowerShell với quyền Administrator: chạy lệnh wsl --install
+
+   <img width="1127" height="293" alt="Ảnh chụp màn hình 2025-11-04 165413" src="https://github.com/user-attachments/assets/16f0b4f3-9d97-4ae3-be37-eeff98485e11" />
+
+   - Cài Password:
+
+   <img width="1475" height="682" alt="Ảnh chụp màn hình 2025-11-04 173426" src="https://github.com/user-attachments/assets/4e913924-a36b-4720-8851-55b60b7a9e3c" />
+
+   - Tạo folder làm việc và di chuyển tới folder đó:
+
+    <img width="246" height="47" alt="Ảnh chụp màn hình 2025-11-04 174142" src="https://github.com/user-attachments/assets/5f87a283-1962-4b67-86e8-34e6bcceb445" />
+
+2. Tạo file docker-compose.yml
+
+    <img width="456" height="27" alt="Ảnh chụp màn hình 2025-11-04 174307" src="https://github.com/user-attachments/assets/9f30ca9c-0258-4a07-8056-49865e4fc31e" />
+
+    <img width="1460" height="754" alt="Ảnh chụp màn hình 2025-11-04 174253" src="https://github.com/user-attachments/assets/16a7e000-4215-4809-8cc7-10db08ecaa3b" />
+
+    - Sau khi tạo xong thì nhập docker compose up -d
+
+      ![Uploading Ảnh chụp màn hình 2025-11-04 174522.png…]()
+
+    
+    
+    
